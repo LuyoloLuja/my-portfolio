@@ -4,6 +4,7 @@
         background-attachment: initial;
     }
     .aside {
+        padding: 1em;
         width: 100%;
         position: unset;
         font-size: 10px;
@@ -46,7 +47,7 @@
     .skills .skills-content .section-title .skill-bar {
         margin: 0;
         width: 100%;
-        border-radius: 2px;
+        border-radius: 5px;
     }
     .skills .skills-content .section-title .bars p {
         font-size: 12px;
@@ -72,7 +73,22 @@
         margin-bottom: 0;
         float: none;
     }
-    /* .projects .projects-content .webpage img {
-        float: center;
-    } */
+    .projects .projects-content .webpage img { 
+        width: 250px;
+    }
+    /* techngologies used */
+    .technologies {
+        margin: 0.5em;
+        font-size: 11px;
+    }
+    .technologies span {
+        margin-bottom: 1em;
+    }
+    /* contacts styling */
+    .contacts .contacts-content h1 {
+        font-size: 18px;
+    }
+    .contacts .contacts-content p {
+        font-size: 14px;
+    }
 }

@@ -9,12 +9,12 @@
         font-size: 10px;
     }
     .main-content {
-        padding-left: 0;
+        padding: 0;
     }
     .main-content #main {
     background-image: url("../images/city.png");
     background-size: cover;
-    padding: 10px;
+    padding: 20px;
     }
     .main-content section {
         min-height: unset;
@@ -24,7 +24,55 @@
     }
     .main-content section p {
         font-size: 20px;
-        /* margin-bottom: 2em;
-        font-weight: lighter; */
     }
+    .main-content section a {
+        padding: 4px;
+    }
+    /* skills styling */
+    .skills .skills-content {
+        width: 100%;
+        margin: 5em 0;
+        margin-bottom: 2em;
+    }
+    .skills .skills-content h1 {
+        font-size: 18px;
+        margin-left: 2em;
+    }
+    .skills .skills-content p {
+        font-size: 14px;
+        margin-left: 2em;
+        margin-bottom: 0;
+    }
+    .skills .skills-content .section-title .skill-bar {
+        margin: 0;
+        width: 100%;
+        border-radius: 2px;
+    }
+    .skills .skills-content .section-title .bars p {
+        font-size: 12px;
+        padding-top: 1em;
+        margin: 0 0.5em;
+    }
+    .skills .skills-content .section-title .bars {
+        font-size: 9px;
+        margin: 3em;
+    }
+    /* projects styling */
+    .projects .projects-content h1 {
+        font-size: 18px;
+    }
+    .projects .projects-content p {
+        font-size: 14px;
+    }
+    .projects .projects-content h2 {
+        font-size: 16px;
+    }
+    .projects .projects-content .webpage-main {
+        width: 100%;
+        margin-bottom: 0;
+        float: none;
+    }
+    /* .projects .projects-content .webpage img {
+        float: center;
+    } */
 }

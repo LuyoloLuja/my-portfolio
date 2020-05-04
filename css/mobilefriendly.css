@@ -6,14 +6,25 @@
     .aside {
         width: 100%;
         position: unset;
+        font-size: 10px;
     }
     .main-content {
         padding-left: 0;
     }
-  .main-content #main {
-        display: none;
+    .main-content #main {
+    background-image: url("../images/city.png");
+    background-size: cover;
+    padding: 10px;
     }
     .main-content section {
         min-height: unset;
+    }
+    .main-content section h1 {
+        font-size: 30px;
+    }
+    .main-content section p {
+        font-size: 20px;
+        /* margin-bottom: 2em;
+        font-weight: lighter; */
     }
 }

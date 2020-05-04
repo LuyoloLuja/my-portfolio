@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- 
+        TO DO:
+            responsiveness
+            link for my cv
+            link for social media
+     -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Luyolo Mntuyedwa</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/mobilefriendly.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- left side content -->
+        <div class="aside">
+            <div class="profile">
+                <a href="#home">
+                    <img src="images/luyolo.jpg" alt="">
+                    <h3 style="text-align: center;">Luyolo Mntuyedwa</h3>
+                    <h3 style="font-weight: lighter; text-align: center;">Web Developer</h3>
+                </a>
+            </div>
+
+            <!-- toggler button -->
+            <div class="nav-toggler">
+                <label id="toggler">&#9776;</label>
+            </div>
+
+            <!-- skills, projects, cv, etc -->
+            <ul>
+                <li><a href="#skill-bars">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li id="cv"><a href="#">My CV</a></li>
+            </ul>
+
+            <!-- UNDER CONSTRUCTION -->
+            <ul>
+                <li><a href="#contacts">Contact Me</a></li>
+                <li><a href="#https://www.technewsworld.com/">Tech News</a></li>
+                <li><a href="#projects">Under Construction</a></li>
+            </ul>
+
+            <!-- social media icons -->
+            <div class="icons">
+                <a href="#"><div class="fa fa-envelope"></div></a>
+                <a href="#"><div class="fa fa-github"></div></a>
+                <a href="#"><div class="fa fa-facebook"></div></a>
+                <a href="#"><div class="fa fa-twitter"></div></a>
+                <a href="#"><div class="fa fa-instagram"></div></a>
+            </div>
+            <footer>
+                <p>&copy; Luyolo Mntuyedwa 2020</p>
+                <p style="font-size: 10px;">Design inspired by J. Tom</p>
+            </footer>
+        </div>
+
+        <!-- main home content -->
+        <div class="main-content">
+            <section id="home">
+                <div id="main">
+                    <h1>Hi there, I'm Luyolo,</h1>
+                    <p>a beginner web developer with love of art and this is my little corner on
+                       the internet. When I am not coding you'll find me playing video games or on the soccer
+                       field. I am stickler for details, because I believe coding is a form of art!
+                    </p>
+
+                    <a href="#projects">Projects</a>
+                    <a href="#">My CV</a>
+                </div>
+            </section>
+
+            <!-- skills section -->
+            <section class="skills" id="skill-bars">
+                <div class="skills-content">
+                    <div class="section-title">
+                        <h1>My Skills</h1>
+                        <p>See below, a list of my current capabilities.</p>
+
+                        <!-- skill bars -->
+                        <div class="bars">
+                            <p>HTML</p>
+                            <div class="skill-bar">
+                                <div id="html">70%</div>
+                            </div>
+            
+                            <p>CSS</p>
+                            <div class="skill-bar">
+                                <div id="css">60%</div>
+                            </div>
+                        
+                            <p>Javascript</p>
+                            <div class="skill-bar">
+                                <div id="javascript">10%</div>
+                            </div>
+                
+                            <p>Photoshop</p>
+                            <div class="skill-bar">
+                            <div id="photoshop">50%</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- projects section -->
+            <section class="projects" id="projects">
+                <div class="projects-content">
+                    <h1>Projects</h1>
+                    <p>
+                        See my work below, unless stated otherwise all of their front-end were done by me.
+                    </p>
+                    <hr>
+                    <br>
+
+                    <!-- basic web page content -->
+                    <div class="webpage">
+                        <div class="webpage-main" style="float:left">
+                            <a href="https://luyololuja.github.io/My-Webpage/my-webpage.html" style="color: #243447; text-transform: initial; padding: 0;">
+                                <h2>Basic Webpage</h2>
+                            </a>
+                            <p>
+                                This is my personal basic webpage, one of the first projects I did when I started learning web
+                                development. It's about the city I would like to visit one day and some of the places I love
+                                around Cape Town. 
+                            </p>
+                        </div>
+                        <a href="https://luyololuja.github.io/My-Webpage/my-webpage.html" style="float: right;"><img src="images/webpage.png" alt="My Basic Webpage"></a>
+
+                        <div class="technologies">
+                            <span>Technologies used</span>
+                            <i>HTML</i>
+                            <i>CSS</i>
+                        </div>
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+
+                    <!-- unit tests content -->
+                    <div class="webpage">
+                        <div class="webpage-main" style="float:left">
+                            <a href="https://luyololuja.github.io/bootcamp-tests/" style="color: #243447; text-transform: initial; padding: 0;">
+                                <h2>Unit Testing</h2>
+                            </a>
+                            <p>
+                                Simple web application unit tests that check if registration plate numbers are from which town around Cape 
+                                Town.
+                            </p>
+                        </div>
+                        <a href="https://luyololuja.github.io/bootcamp-tests/" style="float: right;"><img src="images/tests.png" alt="Unit Tests"></a>
+
+                        <div class="technologies">
+                            <span>Technologies used</span>
+                            <i>HTML</i>
+                            <i>CSS</i>
+                            <i>JAVASCRIPT</i>
+                            <i>MOCHA</i>
+                            <i>CHAI</i>
+                        </div>
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+
+                    <!-- DOM content -->
+                    <div class="webpage">
+                        <div class="webpage-main" style="float:left">
+                            <a href="https://luyololuja.github.io/dom-intro/" style="color: #243447; text-transform: initial; padding: 0;">
+                                <h2>Document Object Model</h2>
+                            </a>
+                            <p>
+                                DOM munipulation. This web application takes inputs and calculates them when buttons are clicked.
+                                <br>
+                                <br>
+                                <em style="font-size: 15px;">
+                                    NB: The layout and style of this web application were not done by me.
+                                    I did the functionality (javascript) of the web application. 
+                                </em>
+                            </p>
+                        </div>
+                        <a href="https://luyololuja.github.io/dom-intro/" style="float: right;"><img src="images/dom.png" alt="DOM Project"></a>
+
+                        <div class="technologies">
+                            <span>Technologies used</span>
+                            <i>HTML</i>
+                            <i>CSS</i>
+                            <i>JAVASCRIPT</i>
+                        </div>
+                        <br><br><br>
+                    </div>
+                </div>
+            </section>
+
+            <!-- contact section -->
+            <section class="contacts" id="contacts">
+                <div class="contacts-content">
+                    <h1>Contact Me</h1>
+                    <p>
+                        I am available for hire and open to any ideas of cooperation.
+                    </p>
+
+                    <div class="icons">
+                        <span style="margin-right: 3.5em;">Email:</span>
+                        <a href="#" style="display: inline-block;"><div class="fa fa-envelope">luyolo@gmail.com</div></a>
+                        <div></div>
+
+                        <span style="margin-right: 3em;">Github:</span>
+                        <a href="#" style="display: inline-block;"><div class="fa fa-github">LuyoloLuja</div></a>
+                        <div></div>
+
+                        <span style="margin-right: 2em;">Facebook:</span>
+                        <a href="#" style="display: inline-block;"><div class="fa fa-facebook">Luyolo Mntuyedwa</div></a>
+                        <div></div>
+
+                        <span style="margin-right: 3em;">Twitter:</span>
+                        <a href="#" style="display: inline-block;"><div class="fa fa-twitter">luja_mntuyedwa</div></a>
+                        <div></div>
+                        
+                        <span style="margin-right: 2em;">Instagram:</span>
+                        <a href="#" style="display: inline-block;"><div class="fa fa-instagram">iam_luyolo</div></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

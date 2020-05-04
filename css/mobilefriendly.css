@@ -1,0 +1,9 @@
+@media only screen and (max-width: 600px) {
+    .aside {
+        width: 100%;
+        position: unset;
+    }
+    .main-content {
+        padding-left: 0;
+    }
+}

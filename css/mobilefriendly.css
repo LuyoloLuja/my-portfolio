@@ -1,9 +1,19 @@
 @media only screen and (max-width: 600px) {
+    body {
+        background-image: none;
+        background-attachment: initial;
+    }
     .aside {
         width: 100%;
         position: unset;
     }
     .main-content {
         padding-left: 0;
+    }
+  .main-content #main {
+        display: none;
+    }
+    .main-content section {
+        min-height: unset;
     }
 }

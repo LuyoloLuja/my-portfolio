@@ -41,16 +41,6 @@ h1, h2, h3, h4 {
     margin: auto;
     margin-top: 2em;
 }
-/* toggler styling */
-.aside .nav-toggler #toggler {
-    display: none;
-    font-size: 20px;
-    cursor: pointer;
-    position: fixed;
-    left: 350px;
-    top: 30px;
-    z-index: 11;
-}
 .aside ul {
     list-style-type: none;
     margin: 3em;

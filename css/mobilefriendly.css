@@ -4,8 +4,7 @@
         background-attachment: initial;
     }
     .aside {
-        padding: 1em;
-        width: 90%;
+        width: 100%;
         position: unset;
         font-size: 10px;
     }

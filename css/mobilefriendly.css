@@ -4,9 +4,11 @@
         background-attachment: initial;
     }
     .aside {
-        width: 100%;
+        width: 98%;
         position: unset;
         font-size: 10px;
+        padding: 1%;
+        margin-bottom: 1em;
     }
     .main-content {
         padding: 0;

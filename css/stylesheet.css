@@ -41,6 +41,10 @@ h1, h2, h3, h4 {
     border-radius: 50%;
     display: block;
     margin: auto;
+    border:  5px solid #fff;
+    -webkit-box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 10px #000;
+
 }
 .aside ul {
     list-style-type: none;

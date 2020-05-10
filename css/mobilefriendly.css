@@ -9,10 +9,14 @@
         position: unset;
         font-size: 10px;
         padding: 1%;
+        padding-top: 2em;
+        padding-bottom: 0;
         margin-bottom: 1em;
+        height: 100vh;
     }
     .aside img {
         width: 100px;
+        padding: 10px;
     }
     .main-content {
         padding: 0;

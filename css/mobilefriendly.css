@@ -11,6 +11,9 @@
         padding: 1%;
         margin-bottom: 1em;
     }
+    .aside img {
+        width: 100px;
+    }
     .main-content {
         padding: 0;
     }

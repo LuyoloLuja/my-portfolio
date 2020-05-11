@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #c1c1c1;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', Helvetica, sans-serif;
+    color: #000;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+.container {
+    width: 60%;
+    margin: 5em auto;
+    padding: 5em;
+    background-color: #fff;
+    display: flex;
+    -webkit-box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 10px #000;
+}
+.container h1 {
+    font-size: 30px;
+    color: #a51a1a;
+}
+.container .info {
+    font-weight: bold;
+    color: 	#333;;
+}
+.container h2 {
+    font-weight: lighter;
+    color: #a51a1a;
+}
+.container a {
+    text-decoration: none;
+    color: #a51a1a;
+}
+.container a:hover{
+    text-decoration: underline;
+}
+aside {
+    width: 30%;
+}
+aside img{
+    padding: 2em;
+}
+aside .details {
+    margin-bottom: 2em;
+}
+aside .languages {
+    margin-top: 2em;
+}
+/* main section */
+main {
+    margin-left: 3em;
+    width: 70%;
+}
+main .summary {
+    margin-bottom: 2em;
+}
+main .education {
+    margin-bottom: 2em;
+}
+main .education ul {
+    list-style-type: none;
+    margin-left: 1em;
+}
+main .skills .skills-info {
+    display: flex;
+    justify-content: space-around;
+}

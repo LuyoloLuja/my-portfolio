@@ -71,3 +71,34 @@ main .skills .skills-info {
     display: flex;
     justify-content: space-around;
 }
+/* responsiveness */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+        background-color: initial;
+    }
+    .container {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        padding: 2em;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .container h1 {
+        font-size: 25px;
+    }
+    .container h2 {
+        font-size: 18px;
+    }
+    aside {
+        width: 100%;
+    }
+    aside .languages {
+        margin-bottom: 2em;
+    }
+    main {
+        margin-left: 0;
+        width: 100%;
+    }
+}

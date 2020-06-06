@@ -2,6 +2,7 @@
 * {
     padding: 0;
     margin: 0;
+    color: #333;
 }
 body {
     background-color: #c1c1c1;
@@ -10,8 +11,11 @@ body {
     font-family: 'Lato', Helvetica, sans-serif;
     color: #000;
     line-height: 1.5;
-    font-weight: lighter;
+    /* font-weight: lighter; */
 }
+/* h1, h2 {
+    color: #2d545e;
+} */
 .container {
     width: 60%;
     margin: 5em auto;
@@ -23,19 +27,15 @@ body {
 }
 .container h1 {
     font-size: 30px;
-    color: #a51a1a;
 }
 .container .info {
     font-weight: bold;
-    color: 	#333;;
 }
 .container h2 {
     font-weight: lighter;
-    color: #a51a1a;
 }
 .container a {
     text-decoration: none;
-    color: #a51a1a;
 }
 .container a:hover{
     text-decoration: underline;

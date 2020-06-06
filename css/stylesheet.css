@@ -6,7 +6,8 @@ body {
     font-family: 'Lato', Helvetica, sans-serif;
     color: #fff;
     line-height: 1.5;
-    background-image: url("../images/city.png");
+    background-image: /* linear-gradient(black, black), */ url("../images/city.png");
+    /* background-blend-mode: saturation; */
     background-attachment:fixed;
 }
 body a {
@@ -30,7 +31,7 @@ h1, h2, h3, h4 {
 /* left side styling */
 .aside {
     width: 300px;
-    background-color: #24344799;
+    background-color: #2d545e99 /* #8d021f99 */;
     position: fixed;
     height: 100%;
     text-transform: uppercase;
@@ -43,6 +44,7 @@ h1, h2, h3, h4 {
     margin: auto;
     border:  5px solid #fff;
     -webkit-box-shadow: 0 0 10px #000;
+    filter: grayscale(100%);
     box-shadow: 0 0 10px #000;
 }
 .aside ul {
@@ -93,7 +95,6 @@ h1, h2, h3, h4 {
     padding: 8px;
     margin-bottom: 10px;
     width: max-content;
-    border-radius: 5px;
     text-transform: uppercase;
 }
 
@@ -101,11 +102,13 @@ h1, h2, h3, h4 {
 .skills {
     width: 100%;
     background-color: #fff;
-    color: #243447;
+    color: #2d545e;
 }
 .skills .skills-content {
+    border-left: 1px solid #2d545e;
     width: 80%;
-    margin: 2em auto;
+    margin: 5em auto;
+    padding-left: 3em;
 }
 .skills .skills-content h1 {
     text-transform: uppercase;
@@ -117,7 +120,7 @@ h1, h2, h3, h4 {
 .skills .skills-content .section-title .skill-bar {
     background-color: silver;
     border-radius: 5px;
-    margin: 1em;
+    /* margin: 1em; */
     width: 70%;
 }
 .skills .skills-content .section-title .bars p {
@@ -128,36 +131,36 @@ h1, h2, h3, h4 {
 }
 .skills .skills-content .section-title .bars {
     font-size: 11px;
-    margin: 4em;
+    /* margin: 4em; */
 }
 
 .skills .skills-content .section-title .bars #html {
     border-radius: 5px;
-    background-color: #34B7F1;
+    background-color: #2d545e;
     width: 70%;
     text-align: right;
 }
 .skills .skills-content .section-title .bars #css {
     border-radius: 5px;
-    background-color: #25D366;
+    background-color: #2d545e;
     width: 60%;
     text-align: right;
 }
 .skills .skills-content .section-title .bars #javascript {
     border-radius: 5px;
-    background-color: #f1bf34;
+    background-color: #2d545e;
     width: 10%;
     text-align: right;
 }
 .skills .skills-content .section-title .bars #git {
     border-radius: 5px;
-    background-color: #009B77;
+    background-color: #2d545e;
     width: 65%;
     text-align: right;
 }
 .skills .skills-content .section-title .bars #photoshop {
     border-radius: 5px;
-    background-color: #34f1b8;
+    background-color: #2d545e;
     width: 50%;
     text-align: right;
 }
@@ -166,9 +169,11 @@ h1, h2, h3, h4 {
 .projects {
     width: 100%;
     background-color: #fff;
-    color: #243447;
+    color: #2d545e;
 }
 .projects .projects-content {
+    padding-left: 3em;
+    border-left: 1px solid #2d545e;
     width: 80%;
     margin: 2em auto;
 }
@@ -199,7 +204,7 @@ h1, h2, h3, h4 {
 }
 .technologies i {
     font-style: normal;
-    background-color: #243447;
+    background-color: #2d545e;
     color: #fff;
     padding: 5px;
 }
@@ -208,12 +213,14 @@ h1, h2, h3, h4 {
 .contacts {
     width: 100%;
     background-color: #fff;
-    color: #243447;
+    color: #2d545e;
     font-weight: lighter;
 }
 .contacts .contacts-content {
+    padding-left: 3em;
+    border-left: 1px solid #2d545e;
     width: 80%;
-    margin: 2em auto;
+    margin: 5em auto;
 }
 .contacts .contacts-content h1 {
     text-transform: uppercase;
@@ -223,6 +230,6 @@ h1, h2, h3, h4 {
     font-size: 18px;
 }
 .contacts .contacts-content a {
-    color: #243447;
+    color: #2d545e;
     text-transform: initial;
 }

@@ -6,8 +6,7 @@ body {
     font-family: 'Lato', Helvetica, sans-serif;
     color: #fff;
     line-height: 1.5;
-    background-image: /* linear-gradient(black, black), */ url("../images/city.png");
-    /* background-blend-mode: saturation; */
+    background-image: url("../images/city.png");
     background-attachment:fixed;
 }
 body a {
@@ -170,6 +169,20 @@ h1, h2, h3, h4 {
     width: 100%;
     background-color: #fff;
     color: #2d545e;
+}
+.projects .code {
+    color: #fff;
+    background-color: red;
+    margin: 10px;
+    padding: 5px;
+    text-transform: lowercase;
+    float: right;
+}
+.projects .code:hover {
+    color: red;
+    background-color: #fff;
+    border: 1px solid red;
+    opacity: unset;
 }
 .projects .projects-content {
     padding-left: 3em;

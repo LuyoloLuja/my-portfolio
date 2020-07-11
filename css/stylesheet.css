@@ -171,17 +171,18 @@ h1, h2, h3, h4 {
     color: #2d545e;
 }
 .projects .code {
+  font-size: 12px;
     color: #fff;
-    background-color: red;
+    background-color: #084D31;
     margin: 10px;
     padding: 5px;
     text-transform: lowercase;
     float: right;
 }
 .projects .code:hover {
-    color: red;
+    color: #084D31;
     background-color: #fff;
-    border: 1px solid red;
+    border: 1px solid #084D31;
     opacity: unset;
 }
 .projects .projects-content {

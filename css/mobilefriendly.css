@@ -58,6 +58,18 @@
         margin-left: 2em;
         margin-bottom: 0;
     }
+    /* .image-grid {
+        display: inline-block;
+        margin-top: 1em;
+    }
+    .image-grid div {
+        vertical-align: middle;
+    }
+    .image-grid div img {
+        width: 80px;
+        display: block;
+        margin: 30px auto;
+    } */
     .skills .skills-content .section-title .skill-bar {
         margin: 0;
         width: 100%;

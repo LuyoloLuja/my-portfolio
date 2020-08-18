@@ -104,7 +104,6 @@ h1, h2, h3, h4 {
     color: #2d545e;
 }
 .skills .skills-content {
-    border-left: 1px solid #2d545e;
     width: 80%;
     margin: auto;
     padding-left: 3em;
@@ -187,7 +186,6 @@ h1, h2, h3, h4 {
 }
 .projects .projects-content {
     padding-left: 3em;
-    border-left: 1px solid #2d545e;
     width: 80%;
     margin: 2em auto;
 }
@@ -205,6 +203,31 @@ h1, h2, h3, h4 {
 .projects .projects-content .webpage img {
     border: 1px solid #E8E8E8;
 }
+
+/* contacts styling */
+.contacts {
+    width: 100%;
+    background-color: #fff;
+    color: #2d545e;
+    font-weight: lighter;
+}
+.contacts .contacts-content {
+    padding-left: 3em;
+    width: 80%;
+    margin: 5em auto;
+}
+.contacts .contacts-content h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.contacts .contacts-content p {
+    font-size: 18px;
+}
+.contacts .contacts-content a {
+    color: #2d545e;
+    text-transform: initial;
+}
+
 .technologies {
     clear: both;
     font-weight:lighter;
@@ -221,29 +244,4 @@ h1, h2, h3, h4 {
     background-color: #2d545e;
     color: #fff;
     padding: 5px;
-}
-
-/* contacts styling */
-.contacts {
-    width: 100%;
-    background-color: #fff;
-    color: #2d545e;
-    font-weight: lighter;
-}
-.contacts .contacts-content {
-    padding-left: 3em;
-    border-left: 1px solid #2d545e;
-    width: 80%;
-    margin: 5em auto;
-}
-.contacts .contacts-content h1 {
-    text-transform: uppercase;
-    font-size: 36px;
-}
-.contacts .contacts-content p {
-    font-size: 18px;
-}
-.contacts .contacts-content a {
-    color: #2d545e;
-    text-transform: initial;
 }

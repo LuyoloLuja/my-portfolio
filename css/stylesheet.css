@@ -106,7 +106,7 @@ h1, h2, h3, h4 {
 .skills .skills-content {
     border-left: 1px solid #2d545e;
     width: 80%;
-    margin: 5em auto;
+    margin: auto;
     padding-left: 3em;
 }
 .skills .skills-content h1 {
@@ -116,16 +116,6 @@ h1, h2, h3, h4 {
 .skills .skills-content p {
     font-size: 18px;
 }
-/* .image-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 25px;
-  grid-row-gap: 25px;
-  width:100%;
-}
-.image-grid > div img {
-  width:inherit;
-} */
 .skills .skills-content .section-title .skill-bar {
     background-color: silver;
     border-radius: 5px;

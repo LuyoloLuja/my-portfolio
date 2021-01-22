@@ -6,7 +6,7 @@ body {
     font-family: 'Lato', Helvetica, sans-serif;
     color: #fff;
     line-height: 1.5;
-    background-image: url("../images/train.jpg");
+    background-image: url("../images/city.png");
     background-attachment:fixed;
     /* background-repeat: no-repeat; */
     background-size: cover;
@@ -111,7 +111,7 @@ h1, h2, h3, h4 {
 }
 .skills .skills-content {
     width: 80%;
-    margin: auto;
+    margin: 1em auto;
     padding-left: 3em;
 }
 .skills .skills-content h1 {
